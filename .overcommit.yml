@@ -11,4 +11,5 @@ PreCommit:
   Brakeman:
     enabled: true
     command: ['bundle', 'exec', 'brakeman']
+    include: './*.rb'
 
