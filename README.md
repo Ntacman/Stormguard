@@ -6,6 +6,7 @@ by confirming whether there is an app/controllers folder present. Need to add mo
 
 Steps to set up overcommit
 1. `gem install overcommit`
+1. Install any of the gems used in the hooks, in this case, `rubocop`, `brakeman`, `fasterer`, `reek`, and `rubocop`
 1. drop the `.overcommit.yml` file into the root of your git repo
 1. `run overcommit --install`
 
