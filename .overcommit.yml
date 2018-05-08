@@ -11,5 +11,5 @@ PreCommit:
   Brakeman:
     enabled: true
     command: ['bundle', 'exec', 'brakeman']
-    include: './*.rb'
-
+    requires_files: true
+    include: 'app/controllers'
