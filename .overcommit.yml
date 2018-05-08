@@ -1,0 +1,14 @@
+PreCommit:
+  RuboCop:
+    enabled: true
+    command: ['bundle', 'exec', 'rubocop']
+  Fasterer:
+    enabled: true
+    command: ['bundle', 'exec', 'fasterer']
+  Reek:
+    enabled: true
+    command: ['bundle', 'exec', 'reek']
+  Brakeman:
+    enabled: true
+    command: ['bundle', 'exec', 'brakeman']
+
